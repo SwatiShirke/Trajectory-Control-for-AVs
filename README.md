@@ -1,6 +1,6 @@
 ---
 
-# Trajectory Control for an Autonomous Vehicle Using NMPC and Vehicle Dynamics
+# Trajectory Control for an Autonomous Vehicle Using NMPC
 
 ## Overview
 This project implements **trajectory control** for an autonomous vehicle using a **Nonlinear Model Predictive Control (NMPC)** approach. The MATLAB function designed here incorporates detailed vehicle dynamics and a state-space model for controlling the vehicle's trajectory. The system outputs acceleration/deceleration commands and yaw angle, which are essential for guiding the vehicle along the desired trajectory while maintaining stability and safety.
