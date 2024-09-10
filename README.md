@@ -1,5 +1,3 @@
-Here's a comprehensive README template for your trajectory control code for an Autonomous Vehicle using MATLAB:
-
 ---
 
 # Trajectory Control for an Autonomous Vehicle Using NMPC and Vehicle Dynamics
@@ -14,21 +12,20 @@ This project implements **trajectory control** for an autonomous vehicle using a
 - Outputs include acceleration, deceleration, and yaw angle commands.
 - Flexible to handle varying vehicle speeds and trajectories.
 
-## Files
+<! --## Files
 - `trajectory_control.m`: The main function implementing NMPC, vehicle dynamics, and control.
 - `vehicle_dynamics.m`: Function containing the detailed state-space model and equations representing vehicle dynamics.
 - `nmpc_solver.m`: Custom NMPC solver to compute optimal control commands.
-- `README.md`: This document, providing an overview of the code and instructions for use.
+- `README.md`: This document, providing an overview of the code and instructions for use. --!>
 
 ## Requirements
 - **MATLAB** (R2021a or later recommended)
-- **Control Systems Toolbox**
 - **Optimization Toolbox** (for NMPC solver)
   
 Make sure all required toolboxes are installed before running the code.
 
 ## System Model
-The vehicle dynamics are modeled in a **state-space form** as follows:
+The vehicle dynamics are modelled in a **state-space form** as follows:
 
 \[
 \dot{x} = f(x, u) \quad \text{(nonlinear state equation)}
@@ -93,7 +90,7 @@ This function will plot the vehicle's movement, showing how closely it follows t
 - **Safety Features**: Add additional safety constraints such as collision avoidance or obstacle detection.
 
 ## Contact
-For further information or questions, please contact [Your Name] at [Your Email].
+For further information or questions, please contact [Swati Shirke] at [swatishirke1895@gmail.com].
 
 ---
 
