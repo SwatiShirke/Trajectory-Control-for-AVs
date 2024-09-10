@@ -12,11 +12,7 @@ This project implements **trajectory control** for an autonomous vehicle using a
 - Outputs include acceleration, deceleration, and yaw angle commands.
 - Flexible to handle varying vehicle speeds and trajectories.
 
-<! --## Files
-- `trajectory_control.m`: The main function implementing NMPC, vehicle dynamics, and control.
-- `vehicle_dynamics.m`: Function containing the detailed state-space model and equations representing vehicle dynamics.
-- `nmpc_solver.m`: Custom NMPC solver to compute optimal control commands.
-- `README.md`: This document, providing an overview of the code and instructions for use. --!>
+
 
 ## Requirements
 - **MATLAB** (R2021a or later recommended)
@@ -55,10 +51,6 @@ The Nonlinear Model Predictive Controller (NMPC) solves the following optimizati
 - **Acceleration Command**: The acceleration or deceleration (m/s²) required to follow the trajectory.
 - **Yaw Angle Command**: The steering angle (degrees) to control the vehicle’s heading.
 
-<! --## Usage
-1. **Clone the repository** or download the code files.
-2. In MATLAB, navigate to the directory containing the function files.
-3. Run the `trajectory_control.m` function by providing the necessary inputs, such as the initial state and reference trajectory.
 
 ```matlab
 % Example usage
@@ -91,7 +83,4 @@ This function will plot the vehicle's movement, showing how closely it follows t
 
 ## Contact
 For further information or questions, please contact [Swati Shirke] at [swatishirke1895@gmail.com].
-
 ---
-
-This README should provide users with clear instructions on how to use your code, the underlying methodology, and how to customize it for their purposes. Feel free to modify the contact section and tailor it to your specific project needs.
