@@ -58,7 +58,7 @@ The Nonlinear Model Predictive Controller (NMPC) solves the following optimizati
 - **Acceleration Command**: The acceleration or deceleration (m/s²) required to follow the trajectory.
 - **Yaw Angle Command**: The steering angle (degrees) to control the vehicle’s heading.
 
-## Usage
+<! --## Usage
 1. **Clone the repository** or download the code files.
 2. In MATLAB, navigate to the directory containing the function files.
 3. Run the `trajectory_control.m` function by providing the necessary inputs, such as the initial state and reference trajectory.
@@ -69,7 +69,7 @@ initial_state = [0; 0; 0; 0];  % [x, y, yaw, velocity]
 ref_trajectory = load('desired_trajectory.mat');  % Load trajectory data
 vehicle_params = load('vehicle_params.mat');  % Load vehicle parameters
 
-[accel_cmd, yaw_cmd] = trajectory_control(initial_state, ref_trajectory, vehicle_params);
+[accel_cmd, yaw_cmd] = trajectory_control(initial_state, ref_trajectory, vehicle_params); --!> 
 ```
 
 4. The function returns the acceleration and yaw commands required to follow the given trajectory.
